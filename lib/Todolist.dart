@@ -43,7 +43,7 @@ class _TodoListState extends State<TodoList> {
       todoListes.remove(todo);
     });
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        duration: const Duration(seconds: 3),
+        duration: const Duration(seconds: 5),
         content: const Text('Expense deleted'),
         action: SnackBarAction(
             label: 'Undo',
