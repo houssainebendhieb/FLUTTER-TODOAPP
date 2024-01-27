@@ -1,0 +1,1 @@
+enum leisure { sleep, food, video, games, travel }
